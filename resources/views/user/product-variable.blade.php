@@ -298,149 +298,9 @@
         <!-- End .product-single-container -->
 
         <div class="product-single-tabs">
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="product-tab-desc" data-toggle="tab" href="#product-desc-content"
-                        role="tab" aria-controls="product-desc-content" aria-selected="true">Description</a>
-                </li>
+           
 
-                <li class="nav-item">
-                    <a class="nav-link" id="product-tab-size" data-toggle="tab" href="#product-size-content"
-                        role="tab" aria-controls="product-size-content" aria-selected="true">Size Guide</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" id="product-tab-tags" data-toggle="tab" href="#product-tags-content"
-                        role="tab" aria-controls="product-tags-content" aria-selected="false">Additional
-                        Information</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" id="product-tab-reviews" data-toggle="tab" href="#product-reviews-content"
-                        role="tab" aria-controls="product-reviews-content" aria-selected="false">Reviews (1)</a>
-                </li>
-            </ul>
-
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="product-desc-content" role="tabpanel"
-                    aria-labelledby="product-tab-desc">
-                    <div class="product-desc-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud ipsum consectetur sed do, quis
-                            nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
-                        <ul>
-                            <li>Any Product types that You want - Simple, Configurable
-                            </li>
-                            <li>Downloadable/Digital Products, Virtual Products
-                            </li>
-                            <li>Inventory Management with Backordered items
-                            </li>
-                        </ul>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
-                    <!-- End .product-desc-content -->
-                </div>
-                <!-- End .tab-pane -->
-
-                <div class="tab-pane fade" id="product-size-content" role="tabpanel" aria-labelledby="product-tab-size">
-                    <div class="product-size-content">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="{{ url('assets/images/products/single/body-shape.png') }}" alt="body shape"
-                                    width="217" height="398">
-                            </div>
-                            <!-- End .col-md-4 -->
-
-                            <div class="col-md-8">
-                                <table class="table table-size">
-                                    <thead>
-                                        <tr>
-                                            <th>SIZE</th>
-                                            <th>CHEST (in.)</th>
-                                            <th>WAIST (in.)</th>
-                                            <th>HIPS (in.)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>XS</td>
-                                            <td>34-36</td>
-                                            <td>27-29</td>
-                                            <td>34.5-36.5</td>
-                                        </tr>
-                                        <tr>
-                                            <td>S</td>
-                                            <td>36-38</td>
-                                            <td>29-31</td>
-                                            <td>36.5-38.5</td>
-                                        </tr>
-                                        <tr>
-                                            <td>M</td>
-                                            <td>38-40</td>
-                                            <td>31-33</td>
-                                            <td>38.5-40.5</td>
-                                        </tr>
-                                        <tr>
-                                            <td>L</td>
-                                            <td>40-42</td>
-                                            <td>33-36</td>
-                                            <td>40.5-43.5</td>
-                                        </tr>
-                                        <tr>
-                                            <td>XL</td>
-                                            <td>42-45</td>
-                                            <td>36-40</td>
-                                            <td>43.5-47.5</td>
-                                        </tr>
-                                        <tr>
-                                            <td>XLL</td>
-                                            <td>45-48</td>
-                                            <td>40-44</td>
-                                            <td>47.5-51.5</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                        <!-- End .row -->
-                    </div>
-                    <!-- End .product-size-content -->
-                </div>
-                <!-- End .tab-pane -->
-
-                <div class="tab-pane fade" id="product-tags-content" role="tabpanel" aria-labelledby="product-tab-tags">
-                    <table class="table table-striped mt-2">
-                        <tbody>
-                            <tr>
-                                <th>Weight</th>
-                                <td>23 kg</td>
-                            </tr>
-
-                            <tr>
-                                <th>Dimensions</th>
-                                <td>12 × 24 × 35 cm</td>
-                            </tr>
-
-                            <tr>
-                                <th>Color</th>
-                                <td>Black, Green, Indigo</td>
-                            </tr>
-
-                            <tr>
-                                <th>Size</th>
-                                <td>Large, Medium, Small</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <!-- End .tab-pane -->
-
-                <div class="tab-pane fade" id="product-reviews-content" role="tabpanel"
-                    aria-labelledby="product-tab-reviews">
-                    <div class="product-reviews-content">
+           
 
 
 
@@ -531,11 +391,6 @@
 
 
 
-                    </div>
-                    <!-- End .product-reviews-content -->
-                </div>
-                <!-- End .tab-pane -->
-            </div>
             <!-- End .tab-content -->
         </div>
         <!-- End .product-single-tabs -->
